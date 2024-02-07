@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'sql_helper.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
@@ -25,7 +26,7 @@ class MainScreen extends StatelessWidget {
                 },
                 child: Text('Перейти далее')),
           ],
-        )
+        ),
     );;
   }
 }
